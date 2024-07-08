@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9ca343f6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://res.cloudinary.com/dcsolhrss/image/upload/v1718380443/name_logo_o9xbrm.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h6>Student of SRM University AP</h6>
+                <h1>Hello, I'm <span>Doondeswari Naru</span></h1>
+                <h2>From Andhra Pradesh, India</h2>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://res.cloudinary.com/dcsolhrss/image/upload/v1718340914/enlargebackground_evnba4.png" width="310px" height="367px" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">I am currently pursuing a Bachelor of Technology degree in Computer Science at SRM University Andhra Pradesh, one of the premier institutions. As a passionate engineer with a fervent desire to expand my technological horizons, I am continually eager to embrace new knowledge and innovations in the field.. I will be glad to utilize my skills and learn new information and I would bring forward my positive attitude, willingness and motivation to learn new things .
+
+
+
+
+
+                        .</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                    </div>
+    
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Technical Skills</span>: C, C++, Python, HTML & CSS, JavaScript, Data Structures, SQL</li>
+                            <li><span>Soft skills</span>: Communication Skills, Team Work, Time Management, Critical thinking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-Present:</span><br>B-Tech at SRM University, AP</li>
+                            <li><span>2020-2022</span><br>Intermediate at Sri Gayatri Jr. College, Gollapudi</li>
+                            <li><span>2019-2020</span><br>SSC Board at NRI Indian Springs ,Gollapudi</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>Coursera:</span><br>Foundations of Cybersecurity, Authorized by Google</li>
+                            <li><span>Coursera:</span><br>Play It Safe With Cybersecurity Authorized by Google</li>
+                            <li><span>Coursera:</span><br>Connect and Protect: Networks and Network
+                                Security ,Authorized by Google</li>
+                                <li><span>NPTEL:</span><br>psychology of learning</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-link"></i>
+                    <h2>Web Designing</h2>
+                    <p>
+                        I'm good at creating functional, interactive web pages using HTML, CSS, and JavaScript.
+                    </p>
+                    <a href="https://github.com/NaruDoondeswari" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Coding</h2>
+                    <p>
+                        I'm good at solving given problems using C, C++, Python, and efficiently building algorithms.
+                    </p>
+                    <a href="https://github.com/NaruDoondeswari" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Analytical Skills</h2>
+                    <p>
+                        I'm good at problem-solving, critical thinking, and solving complex problems.
+                    </p>
+                    <a href="https://github.com/NaruDoondeswari" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+ <!-------------work------------>   
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://res.cloudinary.com/dcsolhrss/image/upload/v1719307079/calendar_rl1bri.webp">
+                <div class="layer">
+                    <h3>Calendar using C language</h3>
+                    <p>A ‘C' calendar project displays dates, months, and years with features like user input and leap year calculations, offering practical programming practice.</p>
+                    <a href="https://github.com/NaruDoondeswari/Calender.git" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://res.cloudinary.com/dcsolhrss/image/upload/v1719308273/ms_pic_ovadie.jpg">
+                <div class="layer">
+                    <h3>Movie Recommender</h3>
+                    <p>A movie recommender in C++ suggests films based on user preferences for an enhanced viewing
+                        experience.</p>
+                    <a href="https://github.com/NaruDoondeswari/Movie-Recomender.git" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://res.cloudinary.com/dcsolhrss/image/upload/v1719308735/to_do_lists_tmp2dv.webp">
+                <div class="layer">
+                    <h3>TO-Do-Lists</h3>
+                    <p>To-Do Lists: Organize tasks, prioritize, and track progress for increased productivity and focus.
+                        Flashcards: Efficient tool for memorizing information through active recall, widely used for studying various subjects.
+                        Focus Timer: Enhances productivity by breaking work into intervals with focused work periods and short breaks.
+                        </p>
+                    <a href="https://github.com/NaruDoondeswari/To-Do-Lists.git" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/NaruDoondeswari" target="_blank" class="btn btn-center">See More</a>
+    </div>
+</div>
+<!--------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>doondeswarinaru12@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9966536508</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/naru-doondeswari-93a1762b1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/NaruDoondeswari" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="Doondeswari_Resume_b0rkdj" download class="btn btn2 " target="_blank">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            } 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+        
+</body>
+</html>
